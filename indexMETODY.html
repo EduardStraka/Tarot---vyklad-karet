@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metody vykladu</title>
+    <link rel="stylesheet" href="stylyMETODA.css">
+</head>
+<body>
+    <header>
+        <h1>ZÁKLADNÍ STYLY VÝKLADU</h1>
+    </header>
+    <br>
+
+    <h2>Metoda jedné karty</h2>
+
+    <p>
+        Tato metoda je základním stylem rozloženi. Je nejjednodušší a samozřejmě nejrychlejší. Dá se snadno praktikovat na denní bázi, předtím, než odejdete do práce. Nemá předem určený význam, vždy záleží na otázce. Může se ovšem stát, že získaná odpověď nebude natolik jednoznačná, jak byste očekávali.
+    </p>
+
+    <div class="nadpis">Metoda tří karet</div>
+    <p>Tento způsob vykládání tarotových karet je rozsáhlejší, dává jasnější odpovědi. Je ovšem důležité, abyste svou otázku měli jasně zformulovanu již před vykládáním. Tato metoda může pomoci např. <br>
+        1. Když se nedokážete rozhodnout mezi ANO a NE. Pokud padnou 2 nebo 3 pozitivní karty, je odpověď ANO. Pokud padnou 2 nebo 3 negativní karty, je odpověď NE. <br>
+        2. Ukáže průběh situace od minulosti do budoucnosti, kdy karta vlevo je MINULOST, prostřední je PŘÍTOMNOST a karta vpravo je BUDOUCNOST. <br>
+        3. Vyložení příběhu, který vám karty říkají o nějakém problému, či situaci.</p>
+        
+<div class="nadpis">Metoda čtyř karet - kříž</div>
+   <p>Metoda kříže má široké rozpětí - dá se použít 
+   při otázkách na vztahy, ukáže cestu, ujasní pohled na přítomnost. Rovněž se dá použít na 
+   </p>
+    
+
+    <button class="newReading" onclick="performReading('oneCard')">JEDNA KARTA</button>
+    <button class="newReading" onclick="performReading('threeCards')">TŘI KARTY</button>
+    <button class="newReading" onclick="performReading('fourCards')">ČTYŘI KARTY</button>
+    <button class="newReading" onclick="performReading('customMethod')"><a href="indexVYZNAM.html">VÝZNAM KARET</a></button>
+
+    <div id="karty" class="card-container"></div>
+
+    <script src="scriptVYKLAD.js"></script>
+</body>
+</html>

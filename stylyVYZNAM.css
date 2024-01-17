@@ -1,0 +1,205 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ 
+body{
+    background: url(imagesTAROT/art%20deco.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+
+table {
+    width: 90%;
+    table-layout: fixed;
+    border-spacing: 10px black;
+    caption-side: bottom;
+    empty-cells: hide;
+    text-align: center;
+    border: 2px solid white;
+}
+td { 
+    padding:5px;
+    color: aqua;
+    background: black;
+    text-align: justify;
+   vertical-align: top 2px;
+    height: auto;
+     border: 2px solid white;
+   
+    
+   }
+
+
+h3{
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 4.7em;
+    border-bottom: 6px solid white;
+    text-align: center;
+    background: black;
+    margin: 0;
+    font:bold;
+ }
+.arkana{
+   padding-top: 40px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+  text-decoration: underline;
+  
+ }
+.text{
+    color:red;
+    padding: 0 50px 0 50px;
+}
+h2{
+    font-size: 2em;
+     text-decoration: underline;
+    text-align: center;
+}
+ .blazen{
+    width: 360px;
+    height: 518px;
+    align-content: center;
+    
+}
+
+.mag{
+    width: 360px;
+    height: 518px;
+    align-content: center;
+    
+}
+
+.veleknezka{
+    width: 360px;
+    height: 518px;
+    align-content: center;
+    
+}
+ 
+.cisarovna{
+   width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.cisar{
+    width: 260px;
+    height: 380px;
+    align-content: center;
+    
+}
+
+.hierofant{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.milenci{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.vuz{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.sila{
+    width: 260px;
+    height: 380px;
+    align-content: center; 
+}
+
+.poustevnik{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+ 
+.kolo{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.spravedlnost{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.viselec{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.smrt{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+ 
+.mirnost{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.dabel{
+     width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.vez{
+   width: 260px;
+    height: 380px;
+    align-content: center; 
+}
+
+.hvezda{
+    width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.mesic{
+    width: 260px;
+    height: 380px;
+    align-content: center;
+}
+
+.slunce{
+     width: 360px;
+    height: 518px;
+    align-content: center;
+}
+
+.soud{
+     width: 360px;
+    height: 518px;
+    align-content: center;
+}
+
+.svet{
+     width: 360px;
+    height: 518px;
+    align-content: center;
+ 
+. 

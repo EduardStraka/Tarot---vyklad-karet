@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    background: black;
+    background-size: cover;
+          
+} 
+
+header h1 {
+    font-size: 4.5em;
+    border-bottom: 6px solid white;
+    text-align: center;
+    background: black;
+    }
+.fool{
+    width: 200px;
+    height: 350px;
+    float: left;
+   
+   padding: 10px;
+}
+
+.lovers{
+    width: 200px;
+    height: 350px;
+    float: right;
+    padding-left: 10px;
+    padding: 10px;
+}
+ article section h1{
+    font-size: 2em;
+    text-align: center;
+     
+   
+}
+nav ul a{
+    color:yellow;
+    font-size: 25px;
+}
+
+article section a{
+    color: aqua;
+    font-size: 1em;
+}
+p {
+    font-size: 1.2em;
+    margin: 20px;
+    display: block;
+    padding: 5px;
+    
+    
+}
+
+li{
+    padding: 1.5rem;
+    display: inline;
+}
