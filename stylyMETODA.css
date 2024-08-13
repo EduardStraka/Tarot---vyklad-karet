@@ -1,119 +1,244 @@
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header h1 {
-    font-size: 4.5em;
-    font-weight: bold;
-    text-decoration: underline;
-    background: black;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
+h1{
+  font-size: 4.85em;
+  text-decoration: underline;
+ text-align: center;
+ margin: 20px;
+ padding: 20px;
+ 
+  
 }
 
-h2 {
-    font-size: 4em;
-    text-decoration: underline;
-    padding-left: 30px;
-    text-align: center;
-    color:white;
+h2{
+  margin: 15px;
+  font-size: 3.5em;
+  text-decoration: underline;
+  font-weight:bolder;
+  text-align: center;
+    }
+h3{
+  font-size: 1.35em;
+  margin-left: 25px;
+   padding-top: 30px;
+  text-align: left;
 }
-
-.nadpis {
-    font-size: 4em;
-    text-decoration: underline;
-    padding-left: 30px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: -30px;
-    color:white;
+.firsttext{
+  color:white;
+  text-align: justify;
+  padding: 0 50px 0 50px;
+  font-size: 2em;
 }
-
 p {
-    font-size: 1.5em;
-    padding: 30px;
-    margin-top: -6px;
-    line-height: 1.5;
-    color:white;
+  font-size: large;
+  padding: 30px;
+  margin-top: -6px;
+  line-height: 1.2;
+  color:white;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  border: 2px solid white;
+  
+}
+.esoPentaklu{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.kralovna{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.fortune{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.esoPoharu{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.paze{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.tower2{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.oneWand{
+  border: solid white 5px;
+border-radius: 5px;
+margin: 10px;
+padding: 10px;
+}
+.steamDeath{
+  border: solid white 5px;
+border-radius: 5px;
+margin: 10px;
+padding: 10px;
+
 }
 
-body {
-    background: url(imagesTAROT/ruka%20s%20kartami.jpg);
-    background-size: cover;
-    height: auto;
-    overflow-x: hidden; /* Zamezení horizontálního posunu */
+.tower{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+
 }
 
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+.world{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+}
+ .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+ 
+  
+   height: 680px;
 
-.card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: black;
-    margin-bottom: 15px;
-    display: block;
 }
 
 .card h3 {
-    font-size: 3em;
-    text-decoration: underline;
+  font-size: 2.5em;
+  text-decoration: underline;
+  text-transform:uppercase;
+  
 }
 
-.card p {
-    margin-top: -15px;
-    font-size: 1.5em;
-    line-height: 1.5;
-}
+.card img {
+  width: 100%; /* Přizpůsobení obrázků šířce okna */
+height: auto; /* Automatické zachování poměru stran */
+position: absolute; /* Absolutní pozice pro přesnější umístění */
+top: 50%; /* Umístění obrázku ve středu stránky */
+left: 50%; /* Umístění obrázku ve středu stránky */
+transform: translate(-50%, -40%); /* Posunutí obrázku do středu */
+z-index: 999; /* Vyšší z-index hodnota pro zobrazení přes obsah nad footerem */
 
-.newReading {
-    border: 2px solid black;
-    padding: 25px 20px;
-    font-size: 1.2em;
-    border-radius: 10px;
-    margin-right: 40px;
-    margin-top: -30px;
-    background: beige;
-    position: relative;
-    left: 220px;
-    text-align: center;
-    line-height: 0.1px;
 }
 /* Media query pro uspořádání tří karet vedle sebe s konkrétními rozměry */
 @media screen and (min-width: 768px) {
-    .card-container {
-        flex-wrap: wrap;
-    }
+  .card-container {
+      flex-wrap: wrap;
+  }
 
-    .card {
-        width: 30%; /* Šířka každé karty, aby se vešly tři vedle sebe */
-        margin-right: 10px; /* Odsazení mezi kartami */
-        margin-bottom: 10px; /* Odsazení pod karty */
-    }
+  .card {
+      width: 30%; /* Šířka každé karty, aby se vešly tři vedle sebe */
+      margin-right: 10px; /* Odsazení mezi kartami */
+      margin-bottom: 10px; /* Odsazení pod karty */
+  }
 
-    .card img {
-        width: 100%; /* Šířka obrázku napříč šířkou karty */
-         height:100%;
-    }
+}
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  color: white;
+  background: #414042;
+  padding: 50px;
+  clip-path: polygon(0 30px, 100% , 100%, 0 30px);   
+  border: solid white 5px;
+  border-radius: 5px;
+  bottom:auto;
+   
+   z-index: -1;
+  top: 0;
+  
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  border: solid white 5px;
+  border-radius: 5px;
+  background: black;
+  display: flex;
+    justify-content: center;
+  z-index: 1;
+  top: 0;
+}
+.newReading {
+  border: 5px solid white;
+   border-radius: 10px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+}
+
+nav ul a {
+   
+  padding: 0px 40px;
+   font-size: 1em;
+  border-radius: 10px;
+  display:flex;
+   
+}  
+.multiline-button-tarot{
+  padding:  -1px;
+  font-size: 1em;
+ background-color: red;
+ border: 5px solid black;
+ border-radius: 10px;
+ height: 80px;
+ margin: 5px;
+}
+.multiline-button-arkana {
+  position: relative;
+   border: 5px solid  orange;
+  font-size: 1em;
+  border-radius: 10px;
+   margin: 10px ;
+    
+
+  /* Zde přidat styly pro tlačítko podle vašich potřeb */
+}
+.multiline-button-metody{
+  position: relative;
+   
+ border: 5px solid  orange;
+ font-size: 1em;
+ border-radius: 10px;
+  margin: 10px ;
+}
+
+.multiline-button span {
+  display: block;
+  
 }
