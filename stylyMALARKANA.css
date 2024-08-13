@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  border: solid white 5px;
+  border-radius: 5px;
+  background: black;
+  display: flex;
+    justify-content: center;
+  z-index: 1;
+  top: 0;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border: 2px solid white;
+  
+}
+ 
+nav ul {
+     
+  list-style-type: none;
+  display: flex;
+   
+  height: 100%;
+}
+
+nav ul a {
+   
+  padding: 0px 40px;
+   font-size: 1em;
+  border-radius: 10px;
+  display:flex;
+   
+}  
+.multiline-button-tarot{
+  padding:  -1px;
+  font-size: 1em;
+ background-color: red;
+ border: 5px solid black;
+ border-radius: 10px;
+ height: 80px;
+ margin: 5px;
+}
+.multiline-button-arkana {
+  position: relative;
+   border: 5px solid  orange;
+  font-size: 1em;
+  border-radius: 10px;
+   margin: 10px ;
+    
+
+  /* Zde přidat styly pro tlačítko podle vašich potřeb */
+}
+.multiline-button-metody{
+  position: relative;
+   
+ border: 5px solid  orange;
+ font-size: 1em;
+ border-radius: 10px;
+  margin: 10px ;
+}
+
+.multiline-button span {
+  display: block;
+  
+}
+.newReading {
+  border: 5px solid black;
+   border-radius: 10px;
+   text-align: center;
+  line-height: 0.1px;
+}
+ h1{
+  font-size: 4.85em;
+   text-decoration: underline;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: -8px;
+}
+  h2{
+    margin: 15px;
+    font-size: 3.5em;
+    text-decoration: underline;
+    font-weight:bolder;
+      }
+      h3{
+        text-decoration: underline;
+        font-size:1.2em;
+         margin-bottom: 15px;
+         margin-top: 15px;
+         text-align: center;
+        
+      }
+      h4{
+        font-size:large;
+        text-align: center;
+        font-style: italic ;
+        margin-top: 10px;
+      }
+      h5{
+        font-size: 1.7em;
+        text-align: center;
+        margin-bottom: 5px;
+         margin-top: -2px;
+
+      }
+      .firsttext{
+        color:white;
+        text-align: justify;
+        padding: 0 50px 0 50px;
+        font-size: 2em;
+    }
+      .text{
+        color:white;
+        text-align: center;
+        padding: 0 50px 0 50px;
+        font-size: 1.5em;
+      }    
+p{
+ font-size: large;
+}
+.chariot{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.death{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.esoHoli{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.esoMecu{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.knight{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+  
+}
+.devil{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.aceCup{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+ 
+}
+.acePentacle{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+}
+.aceSword{
+  border: solid white 5px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.aceWand{
+  border: solid white 5px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+   
+}
+td { 
+  padding:5px;
+  color: aqua;
+  background: black;
+  vertical-align: top 2px;
+  height: auto;
+  border: 2px solid white;
+}
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  color: white;
+  background: #414042;
+  padding: 50px;
+  clip-path: polygon(0 30px, 100% , 100%, 0 30px);   
+  border: solid white 5px;
+  border-radius: 5px;
+  bottom:auto;
+  z-index: -1;
+  top: 0;
+  
+}
+
