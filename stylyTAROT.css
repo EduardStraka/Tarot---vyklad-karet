@@ -10,39 +10,165 @@ body{
     background-size: cover;
           
 } 
+table {
+  width: 100%;
+  table-layout: fixed;
+  border: 2px solid white;
+  
+}
+header{
+  height: 100px;
+  width: 100%;
+  border: solid white 5px;
+  border-radius: 5px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+}
+nav ul a {
+  padding: 0px 40px;
+  font-size: 1em;
+  border-radius: 10px;
+  display:flex;
+ }
+ .multiline-button-tarot{
+ padding:  -1px;
+ font-size: 1em;
+ background-color: red;
+ border: 5px solid black;
+ border-radius: 10px;
+ height: 80px;
+ margin: 5px;
+}
+.multiline-button-arkana {
+  position: relative;
+  border: 5px solid  orange;
+  font-size: 1em;
+  border-radius: 10px;
+  margin: 10px ;
+}
+  /* Zde přidat styly pro tlačítko podle vašich potřeb */
 
-header h1 {
-    font-size: 4.5em;
-    border-bottom: 6px solid white;
-    text-align: center;
-    background: black;
-    }
+.multiline-button-metody{
+  position: relative;
+   
+ border: 5px solid  orange;
+ font-size: 1em;
+ border-radius: 10px;
+  margin: 10px ;
+}
+.multiline-button span {
+  display: block;
+  
+}
+.newReading {
+  border: 5px solid black;
+   border-radius: 10px;
+   text-align: center;
+  line-height: 0.1px;
+}
+h1{
+  font-size: 4.85em;
+   text-decoration: underline;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: -8px;
+   
+}
+ 
+.text{
+  color:white;
+  text-align: justify;
+  padding: 0 50px 0 50px;
+  font-size: large;
+}
 .fool{
     width: 200px;
     height: 350px;
     float: left;
-   
-   padding: 10px;
+    padding: 10px;
+    border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+  
 }
-
+.kral{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.pazePentakle{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.rytir2{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.esoPentaklu2{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.deathSexy{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.esoMecu2{
+  border: solid white 2px;
+  border-radius: 5px;
+ margin: 5px;
+ padding: 5px;
+}
+.hermit{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+}
+.tower{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+}
+.devil{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+}
+.world{
+  border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
+ padding: 10px;
+}
 .lovers{
     width: 200px;
     height: 350px;
     float: right;
     padding-left: 10px;
     padding: 10px;
+    border: solid white 5px;
+  border-radius: 5px;
+ margin: 10px;
 }
- article section h1{
-    font-size: 2em;
-    text-align: center;
-     
-   
-}
-nav ul a{
-    color:yellow;
-    font-size: 25px;
-}
-
 article section a{
     color: aqua;
     font-size: 1em;
@@ -52,11 +178,23 @@ p {
     margin: 20px;
     display: block;
     padding: 5px;
-    
-    
 }
-
 li{
-    padding: 1.5rem;
+    padding: 0.5rem;
     display: inline;
+}
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  color: white;
+  background: #414042;
+  padding: 50px;
+  clip-path: polygon(0 30px, 100% , 100%, 0 30px);   
+  border: solid white 5px;
+  border-radius: 5px;
+  bottom:auto;
+  z-index: -1;
+  top: 0;
 }
