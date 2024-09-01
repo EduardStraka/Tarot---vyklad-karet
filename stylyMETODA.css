@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1{
@@ -16,10 +17,10 @@ h1{
 
 h2{
   margin: 15px;
-  font-size: 3.5em;
+  font-size: 3.2em;
   text-decoration: underline;
   font-weight:bolder;
-  text-align: center;
+   text-align: center;
     }
 h3{
   font-size: 1.35em;
@@ -110,32 +111,36 @@ padding: 10px;
  margin: 10px;
  padding: 10px;
 }
- .card-container {
+.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
+
 
 .card {
   display: flex;
+  position: relative;
   flex-direction: column;
-  align-items:center;
-  text-align: center;
+  align-items: center;
+   height: 70px;
+   text-align: center;  
   border-radius: 10px;
+  padding: 20px;
   background-color: red;
- 
   
-   height: 680px;
-
 }
 
 .card h3 {
-  font-size: 2.5em;
+  font-size: 1.2em;
   text-decoration: underline;
-  text-transform:uppercase;
-  
+  margin: -35px;
+  text-transform: uppercase;
+   text-align: center;
+   padding-bottom:15px;
+   
 }
 
 .card img {
@@ -146,7 +151,8 @@ top: 50%; /* Umístění obrázku ve středu stránky */
 left: 50%; /* Umístění obrázku ve středu stránky */
 transform: translate(-50%, -40%); /* Posunutí obrázku do středu */
 z-index: 999; /* Vyšší z-index hodnota pro zobrazení přes obsah nad footerem */
-
+border: solid 5px beige;
+      border-radius: 5px;
 }
 /* Media query pro uspořádání tří karet vedle sebe s konkrétními rozměry */
 @media screen and (min-width: 768px) {
@@ -158,10 +164,13 @@ z-index: 999; /* Vyšší z-index hodnota pro zobrazení přes obsah nad footere
       width: 30%; /* Šířka každé karty, aby se vešly tři vedle sebe */
       margin-right: 10px; /* Odsazení mezi kartami */
       margin-bottom: 10px; /* Odsazení pod karty */
+      border: solid 5px beige;
+      border-radius: 5px;
   }
 
 }
 footer {
+  position: sticky;
   box-sizing: border-box;
   text-align: center;
   height: 100px;
@@ -173,10 +182,8 @@ footer {
   border: solid white 5px;
   border-radius: 5px;
   bottom:auto;
-   
-   z-index: -1;
+  z-index: -1;
   top: 0;
-  
 }
 
 header{
@@ -191,11 +198,105 @@ header{
   top: 0;
 }
 .newReading {
-  border: 5px solid white;
+  
    border-radius: 10px;
-
+   padding: 10px 10px;
+   background: beige;
+   position: relative;
+   text-align: center;
+    
 }
 
+.oneCardButton-container{
+  text-align: center; /* Vodorovné zarovnání na střed */
+  margin-top: 20px; /* Volitelný horní okraj pro oddělení od horní části stránky */
+}
+  
+  .oneCardButton {
+    position: relative; /* Umožňuje umístit text absolutně vzhledem k tlačítku */
+    display: inline-block; /* Tlačítko bude ve tvaru inline-bloku */
+    width: 200px; /* Šířka tlačítka */
+    height: 50px; /* Výška tlačítka */
+    background-image: url('imagesTAROT/3 karty.jpg'); /* URL obrázku na pozadí */
+    background-size: cover; /* Obrázek se roztáhne na celou plochu tlačítka */
+    background-position: center; /* Obrázek bude vycentrován */
+    border: solid 5px wheat;
+    border-radius: 5px;
+    color: red; /* Barva textu */
+    font-size: 2em; /* Velikost textu */
+    cursor: pointer; /* Změna kurzoru na ruku */
+    overflow: hidden; /* Skryje přetečení obsahu */
+  }
+  
+  .oneCardButton-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+.threeCardsButton-container{
+  text-align: center; /* Vodorovné zarovnání na střed */
+  margin-top: 20px; /* Volitelný horní okraj pro oddělení od horní části stránky */
+}
+  
+  .threeCardsButton {
+    position: relative; /* Umožňuje umístit text absolutně vzhledem k tlačítku */
+    display: inline-block; /* Tlačítko bude ve tvaru inline-bloku */
+    width: 200px; /* Šířka tlačítka */
+    height: 50px; /* Výška tlačítka */
+    background-image: url('imagesTAROT/3 karty.jpg'); /* URL obrázku na pozadí */
+    background-size: cover; /* Obrázek se roztáhne na celou plochu tlačítka */
+    background-position: center; /* Obrázek bude vycentrován */
+    border: solid 5px wheat;
+    border-radius: 5px;
+    color: red; /* Barva textu */
+    font-size: 2em; /* Velikost textu */
+    cursor: pointer; /* Změna kurzoru na ruku */
+    overflow: hidden; /* Skryje přetečení obsahu */
+  }
+  
+  .threeCardsButton-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  
+.fourCardsButton-container{
+  text-align: center; /* Vodorovné zarovnání na střed */
+  margin-top: -10px; /* Volitelný horní okraj pro oddělení od horní části stránky */
+}
+  
+  .fourCardsButton {
+    position: relative; /* Umožňuje umístit text absolutně vzhledem k tlačítku */
+    display: inline-block; /* Tlačítko bude ve tvaru inline-bloku */
+    width: 200px; /* Šířka tlačítka */
+    height: 50px; /* Výška tlačítka */
+    background-image: url('imagesTAROT/3 karty.jpg'); /* URL obrázku na pozadí */
+    background-size: cover; /* Obrázek se roztáhne na celou plochu tlačítka */
+    background-position: center; /* Obrázek bude vycentrován */
+    border: solid 5px wheat;
+    border-radius: 5px;
+    color: red; /* Barva textu */
+    font-size: 2em; /* Velikost textu */
+    cursor: pointer; /* Změna kurzoru na ruku */
+    overflow: hidden; /* Skryje přetečení obsahu */
+  }
+  
+  .fourCardsButton-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  
 nav ul {
   list-style-type: none;
   display: flex;
